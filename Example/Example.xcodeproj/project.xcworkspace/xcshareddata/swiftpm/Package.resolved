@@ -6,7 +6,16 @@
         "repositoryURL": "https://github.com/kewlbear/NodeBridge.git",
         "state": {
           "branch": "main",
-          "revision": "a0a160c3e0159ca6cd7b2f7bfa5568db24420d73",
+          "revision": "6bb73be9a38cd1cb748b996d90820acb870e186a",
+          "version": null
+        }
+      },
+      {
+        "package": "NodeDecoder",
+        "repositoryURL": "https://github.com/kewlbear/NodeDecoder.git",
+        "state": {
+          "branch": "main",
+          "revision": "90a2e42c3e074eee9a626187803c7177190c9623",
           "version": null
         }
       },

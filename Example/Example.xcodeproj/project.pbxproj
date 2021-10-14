@@ -11,10 +11,8 @@
 		4CCACA022717AAAD00B4C5F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCACA012717AAAD00B4C5F6 /* ContentView.swift */; };
 		4CCACA042717AAAF00B4C5F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCACA032717AAAF00B4C5F6 /* Assets.xcassets */; };
 		4CCACA072717AAAF00B4C5F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCACA062717AAAF00B4C5F6 /* Preview Assets.xcassets */; };
-		4CCACA112717ACD300B4C5F6 /* nodejs-ios in Frameworks */ = {isa = PBXBuildFile; productRef = 4CCACA102717ACD300B4C5F6 /* nodejs-ios */; };
-		4CCACA142717AD0E00B4C5F6 /* NodeBridge in Frameworks */ = {isa = PBXBuildFile; productRef = 4CCACA132717AD0E00B4C5F6 /* NodeBridge */; };
 		4CCACA162717AD7200B4C5F6 /* nodejs-project in Resources */ = {isa = PBXBuildFile; fileRef = 4CCACA152717AD7200B4C5F6 /* nodejs-project */; };
-		4CCACA1B2717C1F600B4C5F6 /* NodeDecoder in Frameworks */ = {isa = PBXBuildFile; productRef = 4CCACA1A2717C1F600B4C5F6 /* NodeDecoder */; };
+		4CCACA1E2717C73F00B4C5F6 /* NodeDecoder in Frameworks */ = {isa = PBXBuildFile; productRef = 4CCACA1D2717C73F00B4C5F6 /* NodeDecoder */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +21,7 @@
 		4CCACA012717AAAD00B4C5F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4CCACA032717AAAF00B4C5F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CCACA062717AAAF00B4C5F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4CCACA0E2717AAE200B4C5F6 /* NodeBridge */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NodeBridge; path = ../../NodeBridge; sourceTree = "<group>"; };
 		4CCACA152717AD7200B4C5F6 /* nodejs-project */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "nodejs-project"; sourceTree = SOURCE_ROOT; };
-		4CCACA182717AEC800B4C5F6 /* NodeDecoder */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NodeDecoder; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,9 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CCACA112717ACD300B4C5F6 /* nodejs-ios in Frameworks */,
-				4CCACA142717AD0E00B4C5F6 /* NodeBridge in Frameworks */,
-				4CCACA1B2717C1F600B4C5F6 /* NodeDecoder in Frameworks */,
+				4CCACA1E2717C73F00B4C5F6 /* NodeDecoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +39,6 @@
 		4CCAC9F32717AAAD00B4C5F6 = {
 			isa = PBXGroup;
 			children = (
-				4CCACA172717AEC800B4C5F6 /* Packages */,
-				4CCACA0E2717AAE200B4C5F6 /* NodeBridge */,
 				4CCAC9FE2717AAAD00B4C5F6 /* Example */,
 				4CCAC9FD2717AAAD00B4C5F6 /* Products */,
 				4CCACA192717C1F600B4C5F6 /* Frameworks */,
@@ -81,14 +73,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4CCACA172717AEC800B4C5F6 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				4CCACA182717AEC800B4C5F6 /* NodeDecoder */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		4CCACA192717C1F600B4C5F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,9 +97,7 @@
 			);
 			name = Example;
 			packageProductDependencies = (
-				4CCACA102717ACD300B4C5F6 /* nodejs-ios */,
-				4CCACA132717AD0E00B4C5F6 /* NodeBridge */,
-				4CCACA1A2717C1F600B4C5F6 /* NodeDecoder */,
+				4CCACA1D2717C73F00B4C5F6 /* NodeDecoder */,
 			);
 			productName = Example;
 			productReference = 4CCAC9FC2717AAAD00B4C5F6 /* Example.app */;
@@ -146,8 +128,7 @@
 			);
 			mainGroup = 4CCAC9F32717AAAD00B4C5F6;
 			packageReferences = (
-				4CCACA0F2717ACD300B4C5F6 /* XCRemoteSwiftPackageReference "nodejs-ios" */,
-				4CCACA122717AD0E00B4C5F6 /* XCRemoteSwiftPackageReference "NodeBridge" */,
+				4CCACA1C2717C73F00B4C5F6 /* XCRemoteSwiftPackageReference "NodeDecoder" */,
 			);
 			productRefGroup = 4CCAC9FD2717AAAD00B4C5F6 /* Products */;
 			projectDirPath = "";
@@ -382,17 +363,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		4CCACA0F2717ACD300B4C5F6 /* XCRemoteSwiftPackageReference "nodejs-ios" */ = {
+		4CCACA1C2717C73F00B4C5F6 /* XCRemoteSwiftPackageReference "NodeDecoder" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kewlbear/nodejs-ios.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		4CCACA122717AD0E00B4C5F6 /* XCRemoteSwiftPackageReference "NodeBridge" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kewlbear/NodeBridge.git";
+			repositoryURL = "https://github.com/kewlbear/NodeDecoder.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -401,18 +374,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4CCACA102717ACD300B4C5F6 /* nodejs-ios */ = {
+		4CCACA1D2717C73F00B4C5F6 /* NodeDecoder */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4CCACA0F2717ACD300B4C5F6 /* XCRemoteSwiftPackageReference "nodejs-ios" */;
-			productName = "nodejs-ios";
-		};
-		4CCACA132717AD0E00B4C5F6 /* NodeBridge */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4CCACA122717AD0E00B4C5F6 /* XCRemoteSwiftPackageReference "NodeBridge" */;
-			productName = NodeBridge;
-		};
-		4CCACA1A2717C1F600B4C5F6 /* NodeDecoder */ = {
-			isa = XCSwiftPackageProductDependency;
+			package = 4CCACA1C2717C73F00B4C5F6 /* XCRemoteSwiftPackageReference "NodeDecoder" */;
 			productName = NodeDecoder;
 		};
 /* End XCSwiftPackageProductDependency section */
