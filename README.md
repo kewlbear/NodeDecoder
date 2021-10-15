@@ -12,6 +12,8 @@ struct Foo: Codable {
 let foo = try NodeDecoder(env: env).decode(Foo.self, from: value)
 ```
 
+For a real world example app, see https://github.com/kewlbear/Inssagram.
+
 ### Swift Package Manager
 
 ```
